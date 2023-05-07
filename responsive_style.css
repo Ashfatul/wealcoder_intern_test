@@ -52,6 +52,9 @@
    .page-title {
       font-size: 60px;
    }
+   .service-container {
+      padding: 80px 0;
+   }
 }
 
 @media (max-width: 768px) {
@@ -89,6 +92,9 @@
    .page-sub-title {
       font-size: 12px;
    }
+   .service-container {
+      padding: 50px 0;
+   }
 }
 
 @media (max-width: 400px) {
@@ -97,5 +103,17 @@
    }
    .header-social-links .links .social ul li {
       padding: 10px 8px;
+   }
+   .info-container {
+      height: 210px;
+      width: 270px;
+   }
+   .service-icon img {
+      width: 45px;
+      height: 40px;
+   }
+   .service-name {
+      font-size: 18px;
+      line-height: 22px;
    }
 }
