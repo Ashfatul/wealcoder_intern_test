@@ -427,4 +427,37 @@ select.language-selector {
    left: 24px;
 }
 
+.contact-us {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: #666666;
+   background: #f9f9f9;
+   border: 1px solid #e8e8e8;
+   border-radius: 50px;
+   padding: 10px 20px;
+   margin: 0px 10%;
+   z-index: 1;
+}
+
+a.contact-us-link {
+   color: #171818;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+a.contact-us-link:hover {
+   color: #f68a0a;
+}
+
+.contact-arrow {
+   transform: rotate(-45deg);
+}
+
+a.contact-us-link:hover > .contact-arrow {
+   transform: rotate(0deg);
+   color: #f68a0a;
+}
 /* CSS For Service Card End */
