@@ -407,6 +407,15 @@ select.language-selector {
    background: #efefef;
 }
 
+.line-art2 {
+   position: absolute;
+   content: "";
+   width: 1px;
+   height: 100%;
+   top: 0;
+   background: #222222;
+}
+
 .line5 {
    right: 24px;
 }
@@ -425,6 +434,14 @@ select.language-selector {
 
 .line1 {
    left: 24px;
+}
+
+.line6 {
+   left: 25%;
+}
+
+.line7 {
+   left: 75%;
 }
 
 .contact-us {
@@ -461,3 +478,141 @@ a.contact-us-link:hover > .contact-arrow {
    color: #f68a0a;
 }
 /* CSS For Service Card End */
+
+/* Style For Footer Start */
+
+footer {
+   background: #171818;
+   padding-top: 130px;
+   color: #ffffff;
+}
+.footer-area-top {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.footer-area-top > div {
+   flex-basis: 33.3333%;
+}
+
+.footer-about {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #999999;
+   margin-top: 30px;
+}
+
+h4.footer-section-title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 26px;
+   margin-bottom: 23px;
+}
+
+.footer-links ul {
+   list-style: none;
+}
+
+.footer-links ul li {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #999999;
+   padding: 5px 0px;
+}
+
+p.company-address {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #999999;
+   margin-bottom: 10px;
+}
+
+p.company-phone {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   text-decoration-line: underline;
+   color: #ffffff;
+   margin-bottom: 10px;
+}
+
+p.company-email {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #999999;
+}
+
+.footer-area-top {
+   padding-bottom: 100px;
+}
+
+.line-separetor {
+   border-top: 1px solid #222222;
+}
+
+.footer-rights {
+   display: flex;
+   align-items: center;
+   padding: 40px 0px;
+   position: relative;
+   flex-wrap: wrap;
+}
+
+.copyright {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+form {
+   position: relative;
+}
+
+.form-submit {
+   position: absolute;
+   right: 10%;
+   top: 5px;
+   background: transparent;
+   color: #fff;
+   height: 18px;
+   width: 21px;
+   border: none;
+}
+
+.footer-social-link ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+}
+
+.footer-social-link ul li {
+   padding: 0px 10px;
+}
+
+.footer-social-link ul li a {
+   color: #fff;
+}
+
+input.mail-subscription {
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #222222;
+   width: 80%;
+   margin: auto;
+   padding: 10px;
+   display: flex;
+   color: #fff;
+}
+
+/* Style For Footer End */
