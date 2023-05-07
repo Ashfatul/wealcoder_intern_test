@@ -152,4 +152,7 @@
       font-size: 18px;
       line-height: 22px;
    }
+   .service-info {
+      bottom: 20%;
+   }
 }
